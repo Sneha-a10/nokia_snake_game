@@ -4,3 +4,4 @@ av
 opencv-python-headless
 mediapipe
 qrcode
+protobuf<4.25.0
