@@ -60,7 +60,3 @@ A modern, computer-vision-powered twist on the classic Nokia Snake game! Control
 *   `src/finger_tracking.py`: Handles MediaPipe initialization and hand landmark detection.
 *   `src/controller.py`: Interprets finger movements into directional commands.
 *   `src/ui_overlay.py`: Manages all UI elements (drawing the board, score, timer, buttons).
-
-## 📝 License
-
-This project is open-source and available for educational purposes.

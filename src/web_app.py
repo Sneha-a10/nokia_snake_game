@@ -1,7 +1,6 @@
 import cv2
 import av
 import time
-import socket
 import streamlit as st
 from streamlit_webrtc import webrtc_streamer, VideoTransformerBase, WebRtcMode
 
@@ -10,17 +9,6 @@ from snake_game import SnakeGame
 from finger_tracking import FingerTracker
 from controller import FingerMotionController
 from ui_overlay import UIOverlay, UIButtonEvents
-
-# --- Utils to find local IP ---
-def get_local_ip():
-    try:
-        s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-        s.connect(("8.8.8.8", 80))
-        ip = s.getsockname()[0]
-        s.close()
-        return ip
-    except:
-        return "127.0.0.1"
 
 # --- Video Processor ---
 class SnakeGameProcessor(VideoTransformerBase):
