@@ -1,7 +1,2 @@
-streamlit
-streamlit-webrtc
-av
-opencv-python-headless
+opencv-python
 mediapipe
-qrcode
-protobuf<4.25.0

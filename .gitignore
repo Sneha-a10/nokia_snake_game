@@ -3,4 +3,3 @@ __pycache__/
 .venv/
 .env
 .DS_Store
-src/test_motion_control.py
